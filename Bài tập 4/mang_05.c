@@ -23,12 +23,10 @@ for ( i =0 ;i < n ;i++) {
   for ( i =0 ;i < n ;i++) {
  if (a[i]== m){
    printf ("co ton tai") ;    
-}
-}
+}}
   for ( i =0 ;i < n ;i++) {
   if(a[i]== !m){ 
    printf ("khong ton tai") ;   
- }
-  }
+ }}
   return 0;
   }
