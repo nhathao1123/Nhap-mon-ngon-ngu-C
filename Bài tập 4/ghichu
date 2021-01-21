@@ -31,7 +31,13 @@ int main(void) {
         
         
             }
-
+  for (int j =0 ;j<n;j++) {
+    printf ("a[j]=%d",a[j]);
+dem_chan = dem_chan + 1 ;
+printf ("so chan so chan : %d",dem_chan) ;
+  
+  
+  }
 
     
   return 0;
