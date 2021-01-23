@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-  int k ,a ;
-  int n ; 
-  printf ("cho so de nhap a = ") ;
-  scanf ("%d",&n) ;
-  for ( int i=1;i<=k ;i++ ) {
-    n = n + i ;
-  }
-  printf ("s+1+2+...+ %d",n) ;
-  
-  return 0;
+  int i , n ,  tong = 0 ;
+  printf ( "nhap n :") ;
+  scanf ("%d",&n) ; 
 
+  for (int i=1;i<=n;i++) {
+   tong = tong + i ; 
+  }
+  printf ("\s+1+2...+%d ",tong) ;
+  return 0;
 }
+
