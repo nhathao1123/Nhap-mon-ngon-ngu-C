@@ -1,0 +1,54 @@
+a) Trình bày bộ chữ viết trong ngôn ngữ C
+Bộ chữ viết trong ngôn ngữ C bao gồm những ký tự, ký hiệu sau: (phân biệt chữ in hoa và in thường):
+
+26 chữ cái latinh hoa A,B,C ,D, E.Z
+26 chữ cái latinh thường a,b,c ...z.
+10 chữ số thập phân 0,1,2...9.
+Các ký hiệu toán học: +, -, *, /, =, <, >, (, )
+Các ký hiệu đặc biệt: :. , ; " ' _ @ # $ ! ^ [ ] { } ...
+Dấu cách hay khoảng trống, xuống hàng (\n) và tab (\t)
+
+B) Trình bày các kiểu dữ liệu trong C
+Bất cứ chương trình ứng dụng nào cần sử lý giữ liệu cũng cần có nơi để lưu trữ tạm thời dữ liệu ấy  .Nơi mà giữu liệu được lưu trữ vào bộ nhớ .
+Kiểu dữ liệu quy định kích thước bộ nhớ nơi dữ liệu được lưu trữ .
+Dữ liệu chương trình có nhiều dạng như số (number) , chuổi (sting hay text ),...
+
+C) Trình bày khái niệm và cú pháp khai biến trong ngôn ngữ trong C
+Một chương trình ứng dụng có thể quản lý nhiều loại dữ liệu .Trong trường hợp này ,chương trình phải chỉ bộ nhớ cho mổi đơn vị kiểu dữ 
+liệu .Khi chỉ khi định bộ nhớ , có hai điểm cần lưu ý sau :
+Kích thước bộ nhớ 
+Vị trí bộ nhớ 
+Các ngôn ngữ lập trình hiện đại cho phép chúng ta  sử dụng các tên tượng trưng gọi là biến ,chỉ đến một vùng bộ nhớ nơi mà các giá trị cụ thể được lưu trữ 
+Hệ điều hành hoạt động như một giao   diện giữa các ô nhớ và lập trình viên .Lập trình viên không cần lưu trữ tâm về vị trị ô nhớ mà để cho đệ cho hệ điều hành đảm nhiệm 
+Khai báo biến 
+Biến có thể được khai báo trong cú pháp :
+ Kiểu _dữ _liệu Tên _biến ;
+ Trong đó : Kiểu _dữ_liệu là kiểu dữ liệu ; Tên biến _là tên biến ;kết thúc khai báo biến và dấu chấm phảy 
+ ví dụ : int num ; -<int là kiểu dữ liệu và num là tên biến 
+
+D) Biến cục bộ 
+Được khai báo bên trong các hàm hay khối lệnh 
+Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh 
+Các tham số của hàm là các biến cục bộ của hàm đó 
+
+Biến toàn cục 
+Được khái báo ngoài tất cả các hàm 
+Thường được khai báo tại khối khai báo 
+có thể sử dụng tại mọi vị trí trong chương trình như các hàm ,khối lệnh lặp for hay   while 
+
+E) Trình bày khái niệm và phân loại hàm trong ngô ngữ c 
+Hàm là một khối thực hiện một nhiệm vụ cụ thể nào đó 
+Một cách hiểu khác về hàm : hàm là một sự chia nhỏ của chương trình 
+Phân loại hàm :
+Hmà có 2 loại 
+Hàm thư viện chuẩn 
+Laf các hàm được xây dựng sẵn trong ngôn ngữ C như hàm scanf , printf ,getchar ,...
+Các hàm này được định nghĩa trong các tập tin phần mở rộng .h như stdio.h   , connio.h ,...các tập tin này phải được gộp vào chương trình thông qua chỉ định #include
+Hàm do người dung định nghĩa : định nghĩa theo nhu cầu người dùng .Các phần tiếp theo sẽ tìm hiểu về cú pháp khai báo , định nghĩa  và gọi hàm loại này 
+
+F) Trình bày nguyên tắt hoạt dộng trong ngôn ngữ C 
+Một chương trình C gồm 3 khối cơ bản 
+Khối khai báo : khai báo sử dụng thư viện , khai báo hàm ,khai báo hàm số , khai báo biến , khai báo kiểu do người dùng dịnh nghĩa ,...
+Khối hàm main  : chứa các biến và gọi hàm cần thiết cho chương trình 
+Khối định nghĩa hàm : chứa tất cả các định nghĩa hàm đã khai báo trong khối khai báo 
+
